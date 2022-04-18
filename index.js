@@ -6,3 +6,9 @@ const wholeURL =
 fetch(randomURL)
   .then((response) => response.json())
   .then(console.log);
+
+function stuff() {
+  return "hello world";
+}
+
+let willThisWork = "I want to know if this will work";
