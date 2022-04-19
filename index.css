@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.title-card {
+  text-align: center;
+  padding: 0.5em;
+  font-size: x-large;
+  font-style: oblique;
+}
+
+.food-area {
+  text-align: center;
+}
+
+input,
+button {
+  color: white;
+  background-color: black;
+}
