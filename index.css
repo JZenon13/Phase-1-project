@@ -20,3 +20,11 @@ button {
   color: white;
   background-color: black;
 }
+img {
+  height: 500px;
+  width: 700px;
+}
+#title-area {
+  padding-top: 2em;
+  padding-left: 4em;
+}
