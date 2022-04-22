@@ -1,7 +1,13 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
+  background: linear-gradient(
+    -65deg,
+    #f0ffbb,
+    #fdd6a2,
+    #ffcf91,
+    #fdd6a2,
+    #f0ffbb
+  );
 }
 
 .title-card {
@@ -15,16 +21,125 @@ body {
   text-align: center;
 }
 
+#title-area {
+  padding-top: 2em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+img {
+  height: 500px;
+  width: 700px;
+  padding-right: 5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 5em;
+}
+
 input,
 button {
   color: white;
   background-color: black;
 }
-img {
-  height: 500px;
-  width: 700px;
+
+.toppings {
+  float: right;
+  text-align: right;
+  position: absolute;
+  left: 80px;
 }
-#title-area {
-  padding-top: 2em;
-  padding-left: 4em;
+
+.review-food {
+  text-align: right;
+}
+form,
+p,
+h3 {
+  clear: both;
+  text-align: center;
+}
+ol {
+  clear: both;
+}
+#rating-buttons {
+  border-radius: 10px;
+  box-shadow: 5px 0px 4px 2px #000;
+  max-width: fit-content;
+  width: 50%;
+  margin: auto;
+}
+#rating-buttons :hover {
+  box-shadow: 5px 0px 4px 2px #000;
+  border-radius: 10px;
+}
+
+#new-comment {
+  background-color: beige;
+  border: 4px outset rgba(28, 110, 164, 0.25);
+  color: #ffffff;
+  background: #232323;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
+    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+  box-shadow: 2px 2px 7px 1px #1c6ea4;
+}
+#btn {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 16px;
+  padding: 8px;
+  border-radius: 10px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(28, 110, 164) 0%,
+    rgb(35, 136, 203) 50%,
+    rgb(20, 78, 117) 100%
+  );
+  box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+  border: 2px solid rgb(28, 110, 164);
+  display: inline-block;
+}
+#btn:hover {
+  background: #1c6ea4;
+}
+#btn:active {
+  background: #144e75;
+}
+
+#btn {
+  -moz-transform: translate(0px, -16px);
+  -webkit-transform: translate(0px, -16px);
+  -o-transform: translate(0px, -16px);
+  -ms-transform: translate(0px, -16px);
+  transform: translate(0px, -16px);
+}
+
+#comment-display {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  word-spacing: 0.4px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: normal;
+  text-transform: none;
+}
+
+#comment-label {
+  text-shadow: -4px 1px 8px #1c6ea4;
+}
+
+h4,
+#comment-display,
+h3 {
+  text-shadow: 2px 2px 7px rgba(28, 110, 164, 0.69);
 }

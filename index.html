@@ -5,30 +5,53 @@
     <link rel="stylesheet" type="text/css" href="index.css" />
     <meta charset="UTF-8" />
   </head>
-  <body>
+  <body id="whole-body">
+    
     <div class="title-card">
-      <h1>Food for Thought 🍜</h1>
+      <h1>🍲 Food for Thought 🍜</h1>
     </div>
 
     <div class="food-area">
       <button id="random">Give Random Dish</button>
+      <h2 id="h2play">Press <u>Spacebar</u> for more information.</h2>
     </div>
 
     <div id="title-area">
-      <!--Random food-->
+      <div class="image">
+        
+      </div>
     </div>
     <div id="toppings">
+      <h1 id="recipe-title"></h1>
+      <h2 id="ingredients-title"></h2>
       <ul id="list"></ul>
     </div>
+    <div id="instructions">
+      <ol id="steps" type="I">
+        <h1 id="instructions-title"></h1>
+      </ol>
+    </div>
     <h3>Review:</h3>
+    <form id = "rating-buttons">
+<input type="radio" id="rating-1"name="rating-1" class = "radio">
+<label >🤢</label>
+<input type="radio" id="rating-1"name="rating-1"class = "radio" >
+<label>😔</label>
+<input type="radio" id="rating-1"name="rating-1"class = "radio" >
+<label>😑</label>
+<input type="radio" id="rating-1"name="rating-1"class = "radio" >
+<label>🙂</label>
+<input type="radio" id="rating-1"name="rating-1"class = "radio" >
+<label>😀</label>
+    </form> 
     <p id="comment-display">Insert comment here</p>
 
     <form id="review-food">
-      <h4>Did you like this recipie? Let us hear about it!</h4>
-
-      <label for="new-comment">Comment: </label>
+      <h4>Did you love it? Did you hate it? What would you rate it?</h4>
+        
+      <label id="comment-label" for="new-comment">🌮Comment:🍩</label>
       <textarea name="new-comment" id="new-comment"></textarea>
-      <input type="submit" value="Submit" />
+      <input id = "btn" type="submit" value="Submit"></input>
     </form>
     <script src="index.js"></script>
   </body>
